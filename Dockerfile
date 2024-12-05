@@ -10,8 +10,7 @@ COPY package*.json ./
 # Install dependencies
 RUN npm install
 
-ENV MODEL_URL 'https://storage.googleapis.com/prediksi-kanker/submissions-model/model.json'
-
+ENV MODEL_URL 'https://storage.googleapis.com/staging.poetic-planet-443504-p7.appspot.com/submissions-model/model.json'
 # Salin semua file aplikasi ke dalam container
 COPY . .
 
